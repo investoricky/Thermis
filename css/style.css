@@ -36,8 +36,16 @@ main {
     height: 3rem;
     border-radius: 50%;
 }
-.navlink, .navlinkkk {
+.navlink {
     color: #F9A826 !important;
+}
+.navlinkkk {
+    color: #F9A826 !important;
+}
+.p-boy {
+    position: relative;
+    top: -25%;
+    left: 3%;
 }
 i, .i {
     font-size: 13px;
@@ -54,15 +62,14 @@ i, .i {
 .grid-box {
     display: grid !important;
     grid-template-columns: 25% 25% 25% 25% !important;
-    grid-gap: 5px !important;
 }
 .grid-box2 {
     display: grid !important;
     grid-template-columns: 25% 50% 25% !important;
-    grid-gap: 7px !important;
 }
 .money-section {
     background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid grey !important;
 }
 .money-section:hover {
     background-color: #F9A826 !important;
@@ -81,6 +88,7 @@ i, .i {
     }
     .money-section {
         border-radius: 10px !important;
+        margin-bottom: 7px !important;
     }
     .grid-box, .grid-box2 {
         display: block !important;
